@@ -9,7 +9,6 @@ import javafx.stage.Stage;
 public class Main extends Application{
     static Manager manager;
     int count;
-    static boolean isParallel = false;
 
     public static void main(String[] args) {
         manager = new Manager(8);
